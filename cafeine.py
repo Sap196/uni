@@ -16,7 +16,7 @@ def calculate_cafeine(coffee: int, tea: int, energy: int, cola: int) -> int:
     >>> calculate_cafeine(1, 1, 1, 0)
     215
     >>> calculate_cafeine(1, 0, 1, 10)
-    170
+    570
     """
     return coffee * 90 + tea * 45 + energy * 80 + cola * 40
 
