@@ -17,4 +17,4 @@ if __name__ == '__main__':
     tea = input("Hoeveel koppen thee? ")
     energy = input("Hoeveel energiedrankjes? ")
     cola = input("Hoeveel glazen cola? ")
-    print(calculate_cafeine())
+    print(calculate_cafeine(coffee, tea, energy, cola))
