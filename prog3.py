@@ -1,3 +1,6 @@
 inp = input("Geef getal: ")
-inp = int(inp)
+try:
+    inp = int(inp)
+except:
+    print("Geef een getal als input.")
 print(abs(inp))
