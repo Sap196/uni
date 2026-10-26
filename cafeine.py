@@ -16,5 +16,5 @@ if __name__ == '__main__':
     coffee = input("Hoeveel koppen koffie? ")
     tea = input("Hoeveel koppen thee? ")
     energy = input("Hoeveel koppen energiedrankjes? ")
-    cola = input("Hoeveel koppen koffie? ")
+    cola = input("Hoeveel glazen cola? ")
     <Schrijf op deze plek code voor de invoer en roep de functie aan>
