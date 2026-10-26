@@ -12,6 +12,7 @@ def weeks_elapsed(day1: int, day2: int) -> int:
     >>> weeks_elapsed(40, 61)
 
     """
+    
 
 if __name__ == '__main__':
     day1 = int(input("Dagnummer 1: "))
