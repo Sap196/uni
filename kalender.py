@@ -96,6 +96,6 @@ def first_weekday_month(month: int, year: int) -> int:
 
 if __name__ == '__main__':
     year = int(input("Jaar: "))
-    print(dage)
+    print(dagen_vanaf_1800)
     #month = int(input("Maand: "))
     #display_calendar(month, year)
