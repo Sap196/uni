@@ -140,7 +140,7 @@ def display_header(month: int, year: int) -> str:
     out = str(("          " + months[month-1] + " " + str(year) + "\n" +
     "---------------------------" +
     "\n" + "Zon Maa Din Woe Don Vri Zat" + "\n"))
-    return out
+    print(out)
     
 def display_grid(month: int, year: int) -> str:
     """
