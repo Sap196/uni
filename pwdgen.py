@@ -32,7 +32,7 @@ def new_password() -> str:
     if nummer == 1:
         output+= return_char(3)
     elif hoofdletter == 1:
-        output+= 
+        output+= return_char()
 
 def return_char(type: int) -> str:
     """
