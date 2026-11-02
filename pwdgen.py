@@ -40,9 +40,11 @@ def return_char(type: int) -> str:
     vowels = ['a', 'e', 'i', 'o', 'u', 'y']
     
     if type == 0:
-        return random.choice(consonants)
+        out = random.choice(consonants)
     elif type == 1:
         out = random.choice(vowels)
+    elif type == 2:
+        out = random.randint()
     
     return out
 
