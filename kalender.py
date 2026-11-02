@@ -101,7 +101,7 @@ def days_in_month(month: int, year: int) -> int:
     Gebruikt `is_leap_year`.
     
     >>> days_in_month(1, 2026)
-    0
+    31
     >>> days_in_month(4, 2026)
     90
     >>> days_in_month(12, 2026)
