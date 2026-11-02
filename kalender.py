@@ -116,7 +116,7 @@ def display_grid(month: int, year: int) -> None:
         if i < 10:
             output += "   " + str(i)
         else:
-            
+            output += "  " + str(i)
         if (first_weekday_maand + i) % 7 == 6:
             output += "\n"
     
