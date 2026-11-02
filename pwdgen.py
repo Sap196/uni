@@ -9,6 +9,7 @@ def new_password() -> str:
     Genereert een wachtwoord
     """
     
+    # de 
     with open("no_offense.txt") as file:
         words = file.read().split("\n")
     wordlist = []
@@ -16,6 +17,8 @@ def new_password() -> str:
         new_word = word.strip()
         if new_word != '':
             wordlist.append(new_word)
+    
+    
     
 def print_avg_entropy() -> None:
     """
