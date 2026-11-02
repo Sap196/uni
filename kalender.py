@@ -94,7 +94,7 @@ def display_calendar(month: int, year: int) -> None:
     """
     print(display_header(month, year) + display_grid(month, year))
 
-def display_header(month: int, year: int) -> None:
+def display_header(month: int, year: int) -> Str:
     """
     Print de koptekst van de kalender.
     """
