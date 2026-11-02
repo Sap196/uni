@@ -57,6 +57,12 @@ def new_password() -> str:
     output+= return_char(0) # char 11
     output+= return_char(1) # char 12
 
+    if nummer == 2:
+        output+= return_char(2) # char 6
+    else:
+        output+= return_char(1) # char 6
+    output+= "-"            # char 7
+    
 def return_char(type: int) -> str:
     """
     Type 0 geeft consonants
