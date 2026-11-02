@@ -114,7 +114,7 @@ def display_grid(month: int, year: int) -> None:
     
     output = output[:-1]
     
-    for i in range(1, dagen_in_maand):
+    for i in range(1, dagen_in_maand+1):
         if i < 10:
             output += "   " + str(i)
         else:
