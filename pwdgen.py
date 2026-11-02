@@ -44,7 +44,7 @@ def return_char(type: int) -> str:
     elif type == 1:
         out = random.choice(vowels)
     elif type == 2:
-        out = random.randint()
+        out = random.randint(1,9)
     
     return out
 
