@@ -65,6 +65,7 @@ def days_until_month(month: int, year: int) -> int:
     """
     dagen = 0
     for i in range(1, month):
+        print(f"i={i}, year={year}, dagen_in_maand={dagen_in_maand}")
         dagen += days_in_month(i, year)
     
     return dagen
