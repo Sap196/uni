@@ -86,7 +86,7 @@ def days_until_month(month: int, year: int) -> int:
     
     >>> days_until_month(2026)
     
-    >>> days_from_1800_until_year(2026)
+    >>> days_until_month(2026)
     """
     dagen = 0
     for i in range(1, month):
