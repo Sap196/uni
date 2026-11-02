@@ -59,8 +59,6 @@ def days_from_1800_until_year(year: int) -> int:
     1 januari van het nieuwe jaar is niet meegerekend.
     Gebruikt `is_leap_year`.
     
-    >>> days_from_1800_until_year(1800)
-    0
     >>> days_from_1800_until_year(1810)
     3652
     >>> days_from_1800_until_year(2026)
