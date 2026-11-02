@@ -87,6 +87,7 @@ def days_until_month(month: int, year: int) -> int:
     >>> days_until_month(4, 2026)
     90
     >>> days_until_month(12, 2026)
+    334
     """
     dagen = 0
     for i in range(1, month):
