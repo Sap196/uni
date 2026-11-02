@@ -63,7 +63,7 @@ def days_until_month(month: int, year: int) -> int:
     De dagen van `month` zitten hier dus niet bij.
     Gebruikt `days_in_month`.
     """
-    
+    dagen = 0
 
 def days_in_month(month: int, year: int) -> int:
     """
