@@ -113,4 +113,4 @@ if __name__ == '__main__':
     month = int(input("Maand: "))
     #display_calendar(month, year)
     
-    print(days_from_1800_until_year(year))
+    print(days_until_month(year))
