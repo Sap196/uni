@@ -168,6 +168,10 @@ def first_weekday_month(month: int, year: int) -> int:
     """
     Bepaalt de eerste weekdag van de maand.
     Gebruikt `days_from_1800`.
+    
+    >>> first_weekday_month(10, 2026)
+    
+    >>> first_weekday_month(2, 2026)
     """
     return (days_from_1800(month, year) + 3) % 7
 
