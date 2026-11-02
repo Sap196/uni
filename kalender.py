@@ -22,6 +22,8 @@ def is_leap_year(year: int) -> bool:
     >>> is_leap_year(100)
     False
     >>> is_leap_year(2026)
+    False
+    
     """
     if year % 4 == 0:
         if year % 100 == 0:
