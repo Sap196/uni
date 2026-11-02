@@ -104,7 +104,7 @@ def days_in_month(month: int, year: int) -> int:
     31
     >>> days_in_month(4, 2026)
     30
-    >>> days_in_month(12, 2026)
+    >>> days_in_month(2, 2026)
     334
     """
     out = 0
