@@ -33,7 +33,9 @@ def new_password() -> str:
     if nummer == 1:
         output += ""
 
-def return_char(pos: int, type: int) -> str:        
+def return_char(pos: int, type: int) -> str:
+    
+    return out
 
 def print_avg_entropy() -> None:
     """
