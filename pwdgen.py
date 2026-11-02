@@ -29,6 +29,7 @@ def new_password() -> str:
     
     
     # wachtwoord genereren
+    
     if nummer == 1:
         
 def print_avg_entropy() -> None:
