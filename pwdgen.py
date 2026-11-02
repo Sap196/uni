@@ -38,10 +38,10 @@ def new_password() -> str:
     output+= return_char(0) # char 3
     output+= return_char(0) # char 4
     if nummer == 2:
-        output+= return_char(2) # char 5
+        output+= return_char(2) # char 6
     else:
-        output+= return_char(1) # char 5
-    output+= "-"            # char 6
+        output+= return_char(1) # char 6
+    output+= "-"            # char 7
     
     if hoofdletter == 2:
         output+= return_char(0).upper()
