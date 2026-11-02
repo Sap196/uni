@@ -32,6 +32,7 @@ def new_password() -> str:
     if hoofdletter == 1:
         output+= return_char(0).upper()
     else:
+        
     
     output+= return_char(1) # char 2
     output+= return_char(0) # char 3
