@@ -172,7 +172,7 @@ def first_weekday_month(month: int, year: int) -> int:
     >>> first_weekday_month(10, 2026)
     3
     >>> first_weekday_month(2, 2026)
-    
+    0
     """
     return (days_from_1800(month, year) + 3) % 7
 
