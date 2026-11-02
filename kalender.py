@@ -81,6 +81,12 @@ def days_until_month(month: int, year: int) -> int:
     Telt het aantal dagen van 1 januari van `year` tot aan `month` van `year`.
     De dagen van `month` zitten hier dus niet bij.
     Gebruikt `days_in_month`.
+    
+    >>> days_from_1800_until_year(2026)
+    
+    >>> days_from_1800_until_year(2026)
+    
+    >>> days_from_1800_until_year(2026)
     """
     dagen = 0
     for i in range(1, month):
