@@ -66,7 +66,9 @@ def days_until_month(month: int, year: int) -> int:
     dagen = 0
     for i in range(month):
         dagen += days_in_month(i)
-
+    
+    return dagen
+    
 def days_in_month(month: int, year: int) -> int:
     """
     Bepaalt het aantal dagen in `month` van `year`.
