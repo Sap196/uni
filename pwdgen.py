@@ -23,13 +23,16 @@ def new_password() -> str:
     hoofdletter = random.randint(1,3)
     nummer = random.randint(1,5)
     
-    
     # wachtwoord genereren
     output = ""
     if nummer == 1:
         output += ""
 
 def return_char(pos: int, type: int) -> str:
+    getal = random.randint(1,9)
+    consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
+    'n', 'p', 'r', 's', 't', 'v', 'w', 'q', 'z']
+    vowels = ['a', 'e', 'i', 'o', 'u', 'y']
     
     return out
 
