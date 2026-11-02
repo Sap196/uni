@@ -61,7 +61,7 @@ def days_from_1800_until_year(year: int) -> int:
     
     >>> days_from_1800_until_year(1800)
     0
-    >>> days_from_1800_until_year(1800)
+    >>> days_from_1800_until_year(1810)
     31
     >>> days_from_1800_until_year(2026)
     82818
