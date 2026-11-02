@@ -20,6 +20,7 @@ def is_leap_year(year: int) -> bool:
     Return True als `year` een schrikkeljaar is.
     
     >>> is_leap_year(100)
+    
     """
     if year % 4 == 0:
         if year % 100 == 0:
