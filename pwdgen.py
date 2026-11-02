@@ -26,7 +26,8 @@ def new_password() -> str:
     # wachtwoord genereren
     output = ""
     
-    
+    if nummer == 1:
+        output+=
 
 def return_char(type: int) -> str:
     """
