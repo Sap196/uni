@@ -58,10 +58,10 @@ def new_password() -> str:
     output+= return_char(1) # char 12
 
     if nummer == 2:
-        output+= return_char(2) # char 6
+        output+= return_char(2) # char 13
     else:
-        output+= return_char(1) # char 6
-    output+= "-"            # char 7
+        output+= return_char(1) # char 13
+    output+= "-"            # char 14
     
 def return_char(type: int) -> str:
     """
