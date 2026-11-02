@@ -80,7 +80,7 @@ def days_in_month(month: int, year: int) -> int:
         return int(30)
     elif month == 2:
         if is_leap_year(year):
-            return 29
+            return int(29)
         else:
             return 28
 
