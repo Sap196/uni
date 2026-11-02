@@ -102,6 +102,7 @@ def display_header(month: int, year: int) -> None:
     months = ["Jan", "Feb", "Mar", "Apr", "Mei",
               "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"]
     
+    out = 
     return ("          " + months[month-1] + " " + str(year) + "\n" +
     "---------------------------" + "\n" + "Zon Maa Din Woe Don Vri Zat" + "\n")
     
