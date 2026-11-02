@@ -40,7 +40,7 @@ def return_char(type: int) -> str:
     vowels = ['a', 'e', 'i', 'o', 'u', 'y']
     
     if type == 0:
-        return random.choice()
+        return random.choice(consonants)
     return out
 
 def print_avg_entropy() -> None:
