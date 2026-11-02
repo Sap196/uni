@@ -118,4 +118,4 @@ if __name__ == '__main__':
     month = int(input("Maand: "))
     #display_calendar(month, year)
     
-    print(display_header())
+    print(display_header(month, year))
