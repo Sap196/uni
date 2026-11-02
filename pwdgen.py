@@ -34,7 +34,6 @@ def return_char(type: int) -> str:
     Type 1 geeft vowel
     Type 2 geeft getal
     """
-    getal = random.randint(1,9)
     consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
     'n', 'p', 'r', 's', 't', 'v', 'w', 'q', 'z']
     vowels = ['a', 'e', 'i', 'o', 'u', 'y']
