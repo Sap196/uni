@@ -54,7 +54,8 @@ def days_from_1800_until_year(year: int) -> int:
             dagen += 366
         if not is_leap_year(1800+i):
             dagen += 365
-
+    
+    return dagen
 def days_until_month(month: int, year: int) -> int:
     """
     Telt het aantal dagen van 1 januari van `year` tot aan `month` van `year`.
