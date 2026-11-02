@@ -58,6 +58,13 @@ def days_from_1800_until_year(year: int) -> int:
     Telt de dagen vanaf 1800 tot aan `year`.
     1 januari van het nieuwe jaar is niet meegerekend.
     Gebruikt `is_leap_year`.
+    
+    >>> days_from_1800(1, 1800)
+    0
+    >>> days_from_1800(2, 1800)
+    31
+    >>> days_from_1800(10,2026)
+    82818
     """
     dagen = 0
     diff = year - 1800
