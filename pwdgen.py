@@ -47,7 +47,7 @@ def new_password() -> str:
     if hoofdletter == 2:
         output+= return_char(0).upper()
     elif nummer == 3:
-        
+        output+= return_char(2)
     else:
         output+= return_char(0)
 
