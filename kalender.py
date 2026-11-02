@@ -131,7 +131,8 @@ def display_header(month: int, year: int) -> str:
     """
     Print de koptekst van de kalender.
     
-    >>> display_header()
+    >>> display_header(11, 2026)
+    
     """
     months = ["Jan", "Feb", "Mar", "Apr", "Mei",
               "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"]
