@@ -83,6 +83,8 @@ def days_in_month(month: int, year: int) -> int:
             return 29
         else:
             return 28
+    else:
+        raise
 
 def display_calendar(month: int, year: int) -> None:
     """
