@@ -105,6 +105,7 @@ def display_grid(month: int, year: int) -> None:
     Print het grid van de kalender.
     Gebruikt `first_weekday_month` en `days_in_month`.
     """
+    first_weekday_maand = first_weekday_month
 
 def first_weekday_month(month: int, year: int) -> int:
     """
