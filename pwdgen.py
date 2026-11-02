@@ -30,7 +30,7 @@ def new_password() -> str:
 
 def return_char(type: int) -> str:
     """
-    Type
+    Type 0 geeft 
     """
     getal = random.randint(1,9)
     consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
