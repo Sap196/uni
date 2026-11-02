@@ -42,9 +42,9 @@ def days_from_1800(month: int, year: int) -> int:
     Gebruikt `days_from_1800_until_year` en `days_until_month`.
     
     >>> days_from_1800(1, 1800)
-0
->>> days_from_1800(2, 1800)
-31
+    0
+    >>> days_from_1800(2, 1800)
+    31
     """
     dagen_vanaf_1800 = days_from_1800_until_year(year)
     dagen_tot_maand = days_until_month(month, year)
