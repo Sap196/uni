@@ -74,7 +74,8 @@ def days_in_month(month: int, year: int) -> int:
     Bepaalt het aantal dagen in `month` van `year`.
     Gebruikt `is_leap_year`.
     """
-    if month in [1, 3, 5,]
+    if month in [1, 3, 5, 7, 8, 10, 12]:
+        return 
 
 def display_calendar(month: int, year: int) -> None:
     """
