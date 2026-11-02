@@ -46,11 +46,16 @@ def new_password() -> str:
     output+= "-"            # char 7
     
     if hoofdletter == 2:
-        output+= return_char(0).upper()
+        output+= return_char(0).upper() # char 8
     elif nummer == 3:
-        output+= return_char(2)
+        output+= return_char(2) # char 8
     else:
-        output+= return_char(0)
+        output+= return_char(0) # char 8
+
+    output+= return_char(1) # char 2
+    output+= return_char(0) # char 3
+    output+= return_char(0) # char 4
+    output+= return_char(1) # char 5
 
 def return_char(type: int) -> str:
     """
