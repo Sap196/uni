@@ -38,7 +38,7 @@ def days_from_1800(month: int, year: int) -> int:
     """
     dagen = 0
     
-    dagen_vanaf_1800 = days
+    dagen_vanaf_1800 = days_from_1800_until_year(year)
     
     return dagen
 
