@@ -70,15 +70,15 @@ def new_password() -> str:
     else:
         output+= return_char(0) # char 8
 
-    output+= return_char(1) # char 9
-    output+= return_char(0) # char 10
-    output+= return_char(0) # char 11
-    output+= return_char(1) # char 12
+    output+= return_char(1) # char 16
+    output+= return_char(0) # char 17
+    output+= return_char(0) # char 18
+    output+= return_char(1) # char 19
 
-    if nummer == 4:
-        output+= return_char(2) # char 13
+    if nummer == 6:
+        output+= return_char(2) # char 20
     else:
-        output+= return_char(1) # char 13
+        output+= return_char(1) # char 20
     
 def return_char(type: int) -> str:
     """
