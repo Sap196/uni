@@ -39,6 +39,8 @@ def new_password() -> str:
     output+= return_char(0) # char 4
     if nummer == 2:
         output+= return_char(2) # char 5
+    else:
+        
     output+= "-"            # char 6
     
     if hoofdletter == 2:
