@@ -112,7 +112,7 @@ def display_grid(month: int, year: int) -> None:
     for i in range(first_weekday_maand):
         output += "    "
     
-    for i in range
+    for i in range(dagen_in_maand)
 
 def first_weekday_month(month: int, year: int) -> int:
     """
