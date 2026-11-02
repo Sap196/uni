@@ -82,7 +82,7 @@ def days_in_month(month: int, year: int) -> int:
         if is_leap_year(year):
             return int(29)
         else:
-            return 28
+            return int(28)
 
 def display_calendar(month: int, year: int) -> None:
     """
