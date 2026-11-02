@@ -83,7 +83,7 @@ def days_until_month(month: int, year: int) -> int:
     Gebruikt `days_in_month`.
     
     >>> days_until_month(1, 2026)
-    
+    0
     >>> days_until_month(4, 2026)
     
     >>> days_until_month(12, 2026)
