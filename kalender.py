@@ -80,7 +80,7 @@ def first_weekday_month(month: int, year: int) -> int:
     
 
 if __name__ == '__main__':
-    
-    #year = int(input("Jaar: "))
+    year = int(input("Jaar: "))
+    print(is_leap_year(year))
     #month = int(input("Maand: "))
     #display_calendar(month, year)
