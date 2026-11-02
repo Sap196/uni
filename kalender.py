@@ -105,7 +105,7 @@ def days_in_month(month: int, year: int) -> int:
     >>> days_in_month(4, 2026)
     30
     >>> days_in_month(2, 2024)
-    
+    29
     """
     out = 0
     if month in [1, 3, 5, 7, 8, 10, 12]:
