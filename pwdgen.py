@@ -35,7 +35,8 @@ def new_password() -> str:
         output+= return_char(0).upper()
     
     output+= return_char(1)
-    return_char(0)
+    output+= return_char(0)
+    output+= return_char(0)
 
 def return_char(type: int) -> str:
     """
