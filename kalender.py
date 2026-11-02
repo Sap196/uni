@@ -76,7 +76,10 @@ def days_in_month(month: int, year: int) -> int:
     """
     if month in [1, 3, 5, 7, 8, 10, 12]:
         return 31
-    else if month in []
+    else if month in [4, 6, 9, 11]:
+        return 30
+    else if month is 2:
+        
 
 def display_calendar(month: int, year: int) -> None:
     """
