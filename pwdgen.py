@@ -22,6 +22,7 @@ def new_password() -> str:
     # het wachtwoord genereren
     hoofdletter = random.randint(1,3)
     nummer = random.randint(1,5)
+    getal = random.randint(1,9)
     consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
     'n', 'p', 'r', 's', 't', 'v', 'w', 'q', 'z']
     vowels = ['a', 'e', 'i', 'o', 'u', 'y']
