@@ -114,7 +114,7 @@ def display_grid(month: int, year: int) -> None:
     
     for i in range(dagen_in_maand):
         output += "  " + str(i)
-        if dag == ((first_weekday_maand + i))
+        if dag == ((first_weekday_maand + i) %)
     
     return output
 
