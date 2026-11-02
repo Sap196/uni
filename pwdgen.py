@@ -23,7 +23,7 @@ def new_password() -> str:
     hoofdletter = random.randint(1,3)
     nummer = random.randint(1,5)
     consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
-    'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z']
+    'n', 'p', 'r', 's', 't', 'v', 'w', 'q', 'z']
     vowels = ['a', 'e', 'i', 'o', 'u', 'y']
 def print_avg_entropy() -> None:
     """
