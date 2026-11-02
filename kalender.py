@@ -135,5 +135,3 @@ if __name__ == '__main__':
     year = int(input("Jaar: "))
     month = int(input("Maand: "))
     display_calendar(month, year)
-    
-    #print(display_header(month, year))
