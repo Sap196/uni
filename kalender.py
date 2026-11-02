@@ -111,5 +111,5 @@ def first_weekday_month(month: int, year: int) -> int:
 if __name__ == '__main__':
     year = int(input("Jaar: "))
     print(days_from_1800_until_year(year))
-    #month = int(input("Maand: "))
+    month = int(input("Maand: "))
     #display_calendar(month, year)
