@@ -29,10 +29,9 @@ def new_password() -> str:
     # wachtwoord genereren
     output = ""
     
-    if nummer == 1:
-        output+= return_char(3)
     if hoofdletter == 1:
         output+= return_char(0).upper()
+    elif hoofdletter
     
     output+= return_char(1) # char 2
     output+= return_char(0) # char 3
