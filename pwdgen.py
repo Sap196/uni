@@ -42,7 +42,7 @@ def return_char(type: int) -> str:
     if type == 0:
         return random.choice(consonants)
     elif type == 1:
-        return random.choice(vowels)
+        out = random.choice(vowels)
     
     return out
 
