@@ -40,9 +40,9 @@ def new_password() -> str:
     output+= return_char(1) # char 5
     output+= "-"            # char 6
     
-    if hoofdletter == 1:
+    if hoofdletter == 2:
         output+= return_char(0).upper()
-    elif hoofdletter 
+    elif nummer == 2
     else:
         output+= return_char(0)
 
