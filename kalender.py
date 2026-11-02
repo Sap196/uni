@@ -103,7 +103,8 @@ def display_header(month: int, year: int) -> None:
               "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"]
     
     out = str(("          " + months[month-1] + " " + str(year) + "\n" +
-    "---------------------------" + "\n" + "Zon Maa Din Woe Don Vri Zat" + "\n"))
+    "---------------------------" +
+    "\n" + "Zon Maa Din Woe Don Vri Zat" + "\n"))
     return out
     
 def display_grid(month: int, year: int) -> None:
