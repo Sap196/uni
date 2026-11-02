@@ -110,6 +110,7 @@ def display_grid(month: int, year: int) -> None:
     
     output = ""
     for i in range(first_weekday_maand):
+        print(len(output))
         output += "    "
     
     for i in range(1, dagen_in_maand):
