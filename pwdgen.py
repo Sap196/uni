@@ -16,6 +16,7 @@ def new_password() -> str:
         new_word = word.strip()
         if new_word != '':
             wordlist.append(new_word)
+    
 def print_avg_entropy() -> None:
     """
     Genereert 10.000 wachtwoorden en berekent gemiddelde entropie
