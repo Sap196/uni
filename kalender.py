@@ -28,6 +28,7 @@ def is_leap_year(year: int) -> bool:
         
         return True
     
+    return False
 def days_from_1800(month: int, year: int) -> int:
     """
     Telt de dagen vanaf 1800 tot aan `month` of `year`.
