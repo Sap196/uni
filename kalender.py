@@ -170,7 +170,7 @@ def first_weekday_month(month: int, year: int) -> int:
     Gebruikt `days_from_1800`.
     
     >>> first_weekday_month(10, 2026)
-    3
+    4
     >>> first_weekday_month(2, 2026)
     0
     """
