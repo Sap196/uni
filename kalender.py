@@ -114,7 +114,7 @@ def display_grid(month: int, year: int) -> None:
     
     for i in range(dagen_in_maand):
         output += "  " + str(i)
-        if dag == 
+        if dag == (first)
     
     return output
 
