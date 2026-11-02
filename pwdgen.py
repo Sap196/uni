@@ -63,7 +63,7 @@ def new_password() -> str:
         output+= return_char(1) # char 13
     output+= "-"            # char 14
     
-    if hoofdletter == 2:
+    if hoofdletter == 3:
         output+= return_char(0).upper() # char 15
     elif nummer == 5:
         output+= return_char(2) # char 15
