@@ -29,6 +29,9 @@ def new_password() -> str:
         output += ""
 
 def return_char(type: int) -> str:
+    """
+    Type
+    """
     getal = random.randint(1,9)
     consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
     'n', 'p', 'r', 's', 't', 'v', 'w', 'q', 'z']
