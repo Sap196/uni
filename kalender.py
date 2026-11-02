@@ -45,6 +45,8 @@ def days_from_1800(month: int, year: int) -> int:
     0
     >>> days_from_1800(2, 1800)
     31
+    >>> days_from_1800(10,2026)
+    
     """
     dagen_vanaf_1800 = days_from_1800_until_year(year)
     dagen_tot_maand = days_until_month(month, year)
