@@ -52,10 +52,10 @@ def new_password() -> str:
     else:
         output+= return_char(0) # char 8
 
-    output+= return_char(1) # char 2
-    output+= return_char(0) # char 3
-    output+= return_char(0) # char 4
-    output+= return_char(1) # char 5
+    output+= return_char(1) # char 9
+    output+= return_char(0) # char 10
+    output+= return_char(0) # char 11
+    output+= return_char(1) # char 12
 
 def return_char(type: int) -> str:
     """
