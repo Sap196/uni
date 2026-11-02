@@ -38,6 +38,7 @@ def new_password() -> str:
     output+= return_char(0) # char 3
     output+= return_char(0) # char 4
     output+= return_char(1) # char 5
+    output+= "-"            # char 6
     
 
 def return_char(type: int) -> str:
