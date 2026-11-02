@@ -99,6 +99,13 @@ def days_in_month(month: int, year: int) -> int:
     """
     Bepaalt het aantal dagen in `month` van `year`.
     Gebruikt `is_leap_year`.
+    
+    >>> days_until_month(1, 2026)
+    0
+    >>> days_until_month(4, 2026)
+    90
+    >>> days_until_month(12, 2026)
+    334
     """
     out = 0
     if month in [1, 3, 5, 7, 8, 10, 12]:
