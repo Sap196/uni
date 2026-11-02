@@ -31,7 +31,7 @@ def new_password() -> str:
     
     if nummer == 1:
         output+= return_char(3)
-    elif hoofdletter == 1:
+    if hoofdletter == 1:
         output+= return_char(0).upper()
     
     output+= return_char(1) # char 2
