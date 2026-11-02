@@ -20,7 +20,8 @@ def is_leap_year(year: int) -> bool:
     Return True als `year` een schrikkeljaar is.
     """
     if year % 4 == 0:
-        if year 
+        if year % 100 != 0:
+            
 
 def days_from_1800(month: int, year: int) -> int:
     """
