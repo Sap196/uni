@@ -1,4 +1,8 @@
+import random
 
+"""
+Hint: random.choice("abc")
+"""
 
 def new_password() -> str:
     """
