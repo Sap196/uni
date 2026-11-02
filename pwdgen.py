@@ -27,7 +27,9 @@ def new_password() -> str:
     output = ""
     
     if nummer == 1:
-        output+= return_char()
+        output+= return_char(3)
+    else:
+        output+= 
 
 def return_char(type: int) -> str:
     """
