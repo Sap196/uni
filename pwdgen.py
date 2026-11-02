@@ -29,7 +29,7 @@ def new_password() -> str:
     
     
     # wachtwoord genereren
-    if
+    if()
 def print_avg_entropy() -> None:
     """
     Genereert 10.000 wachtwoorden en berekent gemiddelde entropie
