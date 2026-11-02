@@ -21,7 +21,7 @@ def new_password() -> str:
     
     # het wachtwoord genereren
     hoofdletter = random.randint(1,3)
-    
+    nummer = random.randint(1,5)
     consonants = []
     vowels = []
 def print_avg_entropy() -> None:
