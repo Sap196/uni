@@ -22,6 +22,8 @@ def new_password() -> str:
     # het wachtwoord genereren
     hoofdletter = random.randint(1,3)
     
+    consonants = []
+    
 def print_avg_entropy() -> None:
     """
     Genereert 10.000 wachtwoorden en berekent gemiddelde entropie
