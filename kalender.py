@@ -93,6 +93,8 @@ def display_calendar(month: int, year: int) -> None:
     """
     print(display_header(month, year))
     print(display_grid(month, year))
+    
+    return None
 
 def display_header(month: int, year: int) -> None:
     """
