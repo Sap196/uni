@@ -47,7 +47,7 @@ def days_from_1800_until_year(year: int) -> int:
     1 januari van het nieuwe jaar is niet meegerekend.
     Gebruikt `is_leap_year`.
     """
-    diff = 
+    diff = year - 1800
 
 def days_until_month(month: int, year: int) -> int:
     """
