@@ -45,7 +45,7 @@ def return_char(type: int) -> str:
     elif type == 2:
         out = random.randint(1,9)
     
-    return out
+    return str(out)
 
 def print_avg_entropy() -> None:
     """
