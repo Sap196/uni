@@ -78,7 +78,7 @@ def days_in_month(month: int, year: int) -> int:
     if month in [1, 3, 5, 7, 8, 10, 12]:
         out = 31
     elif month in [4, 6, 9, 11]:
-        return int(30)
+        out = 30
     elif month == 2:
         if is_leap_year(year):
             return int(29)
