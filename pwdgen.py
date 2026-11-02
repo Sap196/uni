@@ -40,7 +40,7 @@ def new_password() -> str:
     if nummer == 2:
         output+= return_char(2) # char 5
     else:
-        
+         output+= return_char(2) # char 5
     output+= "-"            # char 6
     
     if hoofdletter == 2:
