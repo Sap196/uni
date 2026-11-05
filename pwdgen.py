@@ -3,6 +3,7 @@ import random, math
 """
 Hint: random.choice("abc")
 """
+
     # de offensieve woordenlijst laden
     with open("no_offense.txt") as file:
         words = file.read().split("\n")
@@ -11,7 +12,6 @@ Hint: random.choice("abc")
         new_word = word.strip()
         if new_word != '':
             wordlist.append(new_word)
-
 def new_password() -> str:
     """
     Genereert een wachtwoord
