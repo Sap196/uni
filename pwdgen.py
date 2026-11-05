@@ -105,6 +105,7 @@ def return_char(type: int) -> str:
     Type 2 geeft getal
     
     >>> output = return_char(0)
+    >>> output in 
     
     """
     consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
