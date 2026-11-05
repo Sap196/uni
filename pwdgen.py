@@ -13,7 +13,7 @@ for word in words:
     if new_word != '':
         wordlist.append(new_word)
 
-print()
+print(wordlist)
         
 def new_password() -> str:
     """
