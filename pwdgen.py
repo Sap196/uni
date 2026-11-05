@@ -24,7 +24,7 @@ def new_password() -> str:
     hoofdletter = random.randint(1,3)
     nummer = random.randint(2,6)
     
-    while nummer == hoofdletter:
+    while (nummer = 1 and :
         nummer = random.randint(2,6)
     
     print(hoofdletter, " ", nummer)
