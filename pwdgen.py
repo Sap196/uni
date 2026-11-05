@@ -116,7 +116,7 @@ def print_avg_entropy() -> None:
         password = new_password()
         bits = math.log2(3) + math.log2(5 if password[0].isupper() else 4)
         # https://stackoverflow.com/questions/22277493/calculating-entropy-for-user-and-random-passwords
-        
+        #
         for char in password.lower():
             if char in "bcdfghjklmnprstvwqz":
                 bits += math.log2(19)
