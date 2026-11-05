@@ -126,7 +126,7 @@ def print_avg_entropy() -> None:
             
         totaal += bits
             
-    print(f"{totaal / 10000} bits")x
+    print(f"{totaal / 10000} bits")
     
 if __name__ == '__main__':
     print(new_password())
