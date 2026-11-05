@@ -106,7 +106,11 @@ def return_char(type: int) -> str:
     
     >>> return_char(2).isdigit()
     True
-    >>> len(return_char(2)
+    >>> len(return_char(0))
+    1
+    >>> len(return_char(1))
+    1
+    >>> len(return_char(2))
     
     """
     consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
