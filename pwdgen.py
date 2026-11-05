@@ -129,4 +129,4 @@ if __name__ == '__main__':
     outp = new_password()
     print(outp)
     print("Gemiddelde entropie van 10.000 nieuwe wachtwoorden is:")
-    print_avg_entropy(outp)
+    print_avg_entropy()
