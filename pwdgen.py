@@ -104,7 +104,7 @@ def return_char(type: int) -> str:
     Type 1 geeft vowel
     Type 2 geeft getal
     
-    
+    return_char()
     """
     consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
     'n', 'p', 'r', 's', 't', 'v', 'w', 'q', 'z']
