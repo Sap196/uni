@@ -20,7 +20,9 @@ def new_password() -> str:
     Genereert een wachtwoord
     
     >>> password = new_password()
-    >>> 
+    >>> len(password)
+    20
+    
     
     """
     
