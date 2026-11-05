@@ -12,6 +12,7 @@ for word in words:
     new_word = word.strip()
     if new_word != '':
         wordlist.append(new_word)
+        
 def new_password() -> str:
     """
     Genereert een wachtwoord
