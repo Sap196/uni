@@ -25,7 +25,7 @@ def new_password() -> str:
     >>> password[6] == "-" and password[13] == "-"
     True
     
-    >>> password[5,7, 12, 14 19].isdigit() or password[]
+    >>> password[5,7, 12, 14 19].isdigit() or password[7].isdigit() or password[12].isdigit or password[14].isdigit(0)
     
     """
     
