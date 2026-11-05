@@ -26,6 +26,7 @@ def new_password() -> str:
     True
     >>> sum(char.isupper() for char in password)
     1
+    >>> sum(char.)
     """
     
     # het wachtwoord genereren
