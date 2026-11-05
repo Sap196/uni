@@ -19,7 +19,8 @@ def new_password() -> str:
     """
     Genereert een wachtwoord
     
-    >>> password = new_
+    >>> password = new_password()
+    >>> 
     
     """
     
