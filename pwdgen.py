@@ -114,7 +114,7 @@ def print_avg_entropy() -> None:
     
     for i in range(10000):
         password = new_password()
-        bits = math.log2(12)
+        bits = math.log2(3) + math.log2(5 if password[0].isupper() else 4)
         
         for char in password.lower():
             if char in "bcdfghjklmnprstvwqz":
