@@ -107,7 +107,7 @@ def return_char(type: int) -> str:
     >>> output = return_char(0)
     >>> output in ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
     'n', 'p', 'r', 's', 't', 'v', 'w', 'q', 'z']
-    True
+    Tru
     
     """
     consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
