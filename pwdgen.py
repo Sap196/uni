@@ -25,6 +25,8 @@ def new_password() -> str:
     >>> password[6] == "-" and password[13] == "-"
     True
     
+    >>> password[]
+    
     """
     
     # het wachtwoord genereren
