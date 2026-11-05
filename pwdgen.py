@@ -25,7 +25,7 @@ def new_password() -> str:
     >>> password[6] == "-" and password[13] == "-"
     True
     >>> char.isupper() for char in password
-    
+    True
     """
     
     # het wachtwoord genereren
