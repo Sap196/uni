@@ -106,13 +106,15 @@ def return_char(type: int) -> str:
     
     >>> return_char(2).isdigit()
     True
-    >>> len(return_char(0))
-    1
-    >>> len(return_char(1))
-    1
-    >>> len(return_char(2))
-    1
-    >>> 
+    >>> char = return_char(0)
+    >>> len(char) == 1 and char in "bcdfghjklmnprstvwqz"
+    True
+    >>> char = return_char(1)
+    >>> len(char) == 1 and char in "aeiouy"
+    True
+    >>> char = return_char(2)
+    >>> len(char) == 1 and char in "123456789"
+    True
     
     """
     consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
