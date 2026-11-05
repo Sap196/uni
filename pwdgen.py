@@ -121,6 +121,8 @@ def print_avg_entropy() -> None:
             elif char in "123456789":
                 bits += math.log2(9)
             
+            totaal += bits
+            
     print(f"{}")
     
 if __name__ == '__main__':
