@@ -25,7 +25,7 @@ def new_password() -> str:
     >>> password[6] == "-" and password[13] == "-"
     True
     
-    >>> password[5,7, 12, 19]
+    >>> password[5,7, 12, 14 19]
     
     """
     
