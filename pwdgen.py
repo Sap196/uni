@@ -9,16 +9,6 @@ def new_password() -> str:
     Genereert een wachtwoord
     """
     
-    # de offensieve woordenlijst laden
-    with open("no_offense.txt") as file:
-        words = file.read().split("\n")
-    wordlist = []
-    for word in words:
-        new_word = word.strip()
-        if new_word != '':
-            wordlist.append(new_word)
-    
-    
     # het wachtwoord genereren
     hoofdletter = random.randint(1,3)
     nummer = random.randint(1,5)
