@@ -126,7 +126,6 @@ def print_avg_entropy() -> None:
     print(f"{totaal / 10000} bits")
     
 if __name__ == '__main__':
-    new_password()
-    print()
+    print(new_password())
     print("Gemiddelde entropie van 10.000 nieuwe wachtwoorden is:")
     print_avg_entropy()
