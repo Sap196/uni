@@ -1,4 +1,4 @@
-import random
+import random, math
 
 """
 Hint: random.choice("abc")
