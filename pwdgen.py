@@ -25,7 +25,7 @@ def new_password() -> str:
     nummer = random.randint(2,6)
     
     while ((nummer == 3 and hoofdletter == 2) or 
-    (nummer == 5 and hoofdletter == 3):
+    (nummer == 5 and hoofdletter == 3)):
         nummer = random.randint(2,6)
     
     # wachtwoord genereren
