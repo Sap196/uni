@@ -27,6 +27,8 @@ def new_password() -> str:
     while nummer == hoofdletter:
         nummer = random.randint(2,6)
     
+    print(hoofdletter, " ", nummer)
+    
     # wachtwoord genereren
     output = ""
     
