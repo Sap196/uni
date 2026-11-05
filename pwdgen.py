@@ -81,7 +81,11 @@ def new_password() -> str:
     else:
         output+= return_char(1) # char 20
         
-    return str(output)
+    for word in wordlist:
+    if word.lower() in output.lower():
+        return new_password()
+
+return output
     
 def return_char(type: int) -> str:
     """
