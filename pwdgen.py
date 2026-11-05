@@ -109,6 +109,7 @@ def print_avg_entropy() -> None:
     print(lengte * math.log2(aantal_tekens))
 
 if __name__ == '__main__':
-    outp = print(new_password())
+    outp = new_password()
+    print(outp)
     print("Gemiddelde entropie van 10.000 nieuwe wachtwoorden is:")
     print_avg_entropy()
