@@ -109,7 +109,7 @@ def print_avg_entropy() -> None:
     """
     totaal = 0.0
     
-    for i in range(10000):
+    for i in range(10):
         password = new_password()
         bits = math.log2(12)
         
