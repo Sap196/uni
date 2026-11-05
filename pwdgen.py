@@ -111,6 +111,7 @@ def return_char(type: int) -> str:
     >>> len(return_char(1))
     1
     >>> len(return_char(2))
+    1
     
     """
     consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
