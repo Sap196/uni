@@ -121,7 +121,7 @@ def print_avg_entropy() -> None:
             elif char in "123456789":
                 bits += math.log2(9)
             
-            totaal += bits
+        totaal += bits
             
     print(f"{totaal / 10} bits")
     
