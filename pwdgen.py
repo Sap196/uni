@@ -22,7 +22,8 @@ def new_password() -> str:
     >>> password = new_password()
     >>> len(password)
     20
-    
+    >>> password[6] == "-" and password[13] == "-"
+    True
     
     """
     
