@@ -18,6 +18,9 @@ for word in words:
 def new_password() -> str:
     """
     Genereert een wachtwoord
+    
+    >>> 
+    
     """
     
     # het wachtwoord genereren
