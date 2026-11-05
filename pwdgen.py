@@ -107,6 +107,13 @@ def print_avg_entropy() -> None:
     """
     Genereert 10.000 wachtwoorden en berekent gemiddelde entropie
     """
+    for char in password.lower():
+            if char in "bcdfghjklmnprstvwqz":
+                bits += math.log2(19)
+            elif char in "aeiouy":
+                bits += math.log2(6)
+            elif char in "123456789":
+                bits += math.log2(9)
     print(lengte * math.log2(20))
     
 if __name__ == '__main__':
