@@ -81,7 +81,7 @@ def new_password() -> str:
     else:
         output+= return_char(1) # char 20
         
-    
+    if output    
     return str(output)
     
 def return_char(type: int) -> str:
