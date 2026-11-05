@@ -12,6 +12,8 @@ for word in words:
     new_word = word.strip()
     if new_word != '':
         wordlist.append(new_word)
+
+print()
         
 def new_password() -> str:
     """
