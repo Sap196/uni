@@ -27,7 +27,8 @@ def compress(input: list) -> list:
             else:
                 compressed.append([input[i], count_zelfde])
                 break
-                
+    
+    return compressed            
     
     return compressed
 
