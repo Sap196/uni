@@ -23,6 +23,8 @@ def compress(input: list) -> list:
         count_zelfde = 0
         for j in range(i, len(input)):
             if input[i] == input[j]:
+                count_zelfde += 1
+            else:
                 
     
     return compressed
