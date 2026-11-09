@@ -18,4 +18,4 @@ def generate_integers() -> int:
     
 def compress(input: list) -> list:
     
-    
+    return compressed
