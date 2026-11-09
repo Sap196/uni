@@ -81,3 +81,4 @@ if __name__ == "__main__":
         integers = generate_integers()
         compressed_lijst = compress(integers)
         
+        
