@@ -18,6 +18,10 @@ def generate_integers() -> int:
     
 def compress(input: list) -> list:
     compressed = []
+    count_zelfde = 0
+    
+    for i in range(len(input)):
+        
     
     return compressed
 
