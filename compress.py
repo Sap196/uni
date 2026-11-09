@@ -77,6 +77,7 @@ def compression_ratio(compressed: list, original: list) -> int:
 
 if __name__ == "__main__":
     """
+    
     """
     compressies = []
     for i in range(1000):
