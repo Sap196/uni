@@ -80,5 +80,7 @@ if __name__ == "__main__":
     for i in range(1000):
         integers = generate_integers()
         compressed_lijst = compress(integers)
-        compressies.append(compression_ratio(compressed_lijst, integers)
+        compressies.append(compression_ratio(compressed_lijst, integers))
+    
+    
         
