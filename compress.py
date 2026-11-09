@@ -46,7 +46,7 @@ def decompress(input: list) -> list:
     decompressed = []
     
     for paar in input:
-        
+        decompressed.append()
     
     return decompressed
 
