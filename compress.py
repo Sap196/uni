@@ -26,6 +26,7 @@ def compress(input: list) -> list:
                 count_zelfde += 1
             else:
                 compressed.append()
+                
     
     return compressed
 
