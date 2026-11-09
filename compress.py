@@ -24,7 +24,7 @@ def compress(input: list) -> list:
     compressed = []
     
     for i in range(len(input)):
-        if not input
+        if not input[i]
         count_zelfde = 0
         for j in range(i, len(input)):
             if input[i] == input[j]:
