@@ -5,6 +5,8 @@ def generate_integers() -> int:
     >>> output = generate_integers()
     >>> type(output)
     <class 'list'>
+    >>>
+    
     """
     integer_list = []
     
