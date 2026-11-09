@@ -2,7 +2,7 @@ import random
 
 def generate_integers(amount: int) -> int:
     """
-    >>>generate_integers(10)
+    >>>generate_integers()
     """
     integer_list = []
     
