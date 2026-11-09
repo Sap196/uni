@@ -32,11 +32,11 @@ def compress(input: list) -> list:
         if i == 0 or input[i] != input[i-1]:
             count_zelfde = 0
             for j in range(i, len(input)):
-            if input[j] != input[i]:
-                break
-            count_zelfde += 1
-
-        compressed.append([input[i], count_zelfde])
+                if input[j] != input[i]:
+                    break
+                count_zelfde += 1
+    
+            compressed.append([input[i], count_zelfde])
 
             
             
