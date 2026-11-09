@@ -17,5 +17,6 @@ def generate_integers() -> int:
     return integer_list
     
 def compress(input: list) -> list:
+    compressed = []
     
     return compressed
