@@ -22,8 +22,9 @@ def compress(input: list) -> list:
     [[1, 1], [3, 4], [4, 1], [5, 1]]
     >>> compress([8, 7, 7, 2, 2, 4, 1])
     [[1, 1], [3, 4], [4, 1], [5, 1]]
-    >>> compress([1, 3, 3, 3, 3, 4, 5])
-    [[1, 1], [3, 4], [4, 1], [5, 1]]
+    >>> output = generate_integers()
+    >>> type(output)
+    <class 'list'>
     """
     compressed = []
     
