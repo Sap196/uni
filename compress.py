@@ -82,5 +82,5 @@ if __name__ == "__main__":
         compressed_lijst = compress(integers)
         compressies.append(compression_ratio(compressed_lijst, integers))
     
-        print(sum(compressies) / len(xs))
+        print(sum(compressies) / len(compressies))
         
