@@ -36,7 +36,6 @@ def compression_ratio(compressed: list, original: list) -> int:
     0.5
     """
     
-    """
     compression_ratio_number = (len(uncompressed) / (len(compressed) * 2))
     
     return compression_ratio_number
