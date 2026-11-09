@@ -25,7 +25,7 @@ def compress(input: list) -> list:
             if input[i] == input[j]:
                 count_zelfde += 1
             else:
-                compressed.append([input[i], ])
+                compressed.append([input[i], count_zelfde])
                 break
                 
     
