@@ -45,6 +45,9 @@ def compress(input: list) -> list:
 def decompress(input: list) -> list:
     decompressed = []
     
+    for paar in input:
+        
+    
     return decompressed
 
 def compression_ratio(compressed: list, original: list) -> int:
