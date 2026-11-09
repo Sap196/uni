@@ -25,13 +25,13 @@ def compress(input: list) -> list:
     
     for i in range(len(input)):
         if not input[i] == input[i-1]:
-        count_zelfde = 0
-        for j in range(i, len(input)):
-            if input[i] == input[j]:
-                count_zelfde += 1
-            else:
-                compressed.append([input[i], count_zelfde])
-                break
+            count_zelfde = 0
+            for j in range(i, len(input)):
+                if input[i] == input[j]:
+                    count_zelfde += 1
+                else:
+                    compressed.append([input[i], count_zelfde])
+                    break
     
     return compressed
 
