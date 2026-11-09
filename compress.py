@@ -6,7 +6,7 @@ def generate_integers(amount: int) -> int:
     """
     integer_list = []
     
-    for i in range(1000):
+    for i in range(amount):
         getal = random.randint(0, 9)
         integer_list.append(getal)
     
