@@ -37,10 +37,6 @@ def compress(input: list) -> list:
                 count_zelfde += 1
     
             compressed.append([input[i], count_zelfde])
-
-            
-            
-            
             if not i == (len(input) - 1):
                 for j in range(i, len(input)):
                     if input[i] == input[j]:
