@@ -22,7 +22,7 @@ def compress(input: list) -> list:
     
     for i in range(len(input)):
         for j in range(i, len(input)):
-            
+            if 
     
     return compressed
 
