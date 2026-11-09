@@ -75,4 +75,5 @@ def compression_ratio(compressed: list, original: list) -> int:
     
     return compression_ratio_number
 
-print(compress([1, 3, 3, 3, 3, 4, 5]))
+if __name__ == "__main__":
+    
