@@ -18,7 +18,7 @@ def generate_integers() -> int:
     
 def compress(input: list) -> list:
     """
-    >>> compress([])
+    >>> compress([1, 3, 3, 3, 3, 4, 5])
     []
     """
     compressed = []
