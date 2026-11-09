@@ -1,4 +1,4 @@
-
+import random
 
 def generate_integers() -> int:
     
