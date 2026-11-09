@@ -1,1 +1,2 @@
-def generate_integers():
+def generate_integers() -> int:
+    
