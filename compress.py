@@ -1,10 +1,10 @@
-import random
-
 """
 >>> origineel = [8, 7, 7, 2, 2, 4, 1]
 >>> decompress(compress(origineel)) == origineel
 True
 """
+
+import random
 
 def generate_integers() -> int:
     """
