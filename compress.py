@@ -9,4 +9,4 @@ def generate_integers() -> int:
     
     return integer_list
 
-print(generate_integers)
+print(generate_integers())
