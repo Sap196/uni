@@ -25,6 +25,8 @@ def compress(input: list) -> list:
     >>> output = compress([1, 3, 3, 3, 3, 4, 5])
     >>> type(output)
     <class 'list'>
+    >>> compress([5, 5, 3, 5, 5, 5])
+    [[5, 2], [3, 1], [5, 3]]
     """
     compressed = []
     
