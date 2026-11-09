@@ -83,4 +83,3 @@ if __name__ == "__main__":
         compressies.append(compression_ratio(compressed_lijst, integers))
     
     print(sum(compressies) / len(compressies))
-        
