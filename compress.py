@@ -7,7 +7,6 @@ def generate_integers() -> int:
     <class 'list'>
     >>> len(output)
     1000
-    
     """
     integer_list = []
     
