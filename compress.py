@@ -8,5 +8,3 @@ def generate_integers() -> int:
         integer_list.append(getal)
     
     return integer_list
-
-print(generate_integers())
