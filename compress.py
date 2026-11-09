@@ -1,3 +1,3 @@
 def generate_integers() -> int:
     
-    return 
+    return integer_list
