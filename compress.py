@@ -52,3 +52,5 @@ def compression_ratio(compressed: list, original: list) -> int:
     compression_ratio_number = (len(original) / (len(compressed) * 2))
     
     return compression_ratio_number
+
+print()
