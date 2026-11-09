@@ -77,4 +77,5 @@ def compression_ratio(compressed: list, original: list) -> int:
 
 if __name__ == "__main__":
     for i in range(1000):
+        integers = generate_integers()
         
