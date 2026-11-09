@@ -53,4 +53,4 @@ def compression_ratio(compressed: list, original: list) -> int:
     
     return compression_ratio_number
 
-print()
+print(compress())
