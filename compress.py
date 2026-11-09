@@ -3,6 +3,7 @@ import random
 def generate_integers() -> int:
     """
     >>>output = generate_integers()
+    
     """
     integer_list = []
     
