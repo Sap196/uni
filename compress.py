@@ -22,6 +22,7 @@ def compress(input: list) -> list:
     [[1,1], [3, 4], [4, 1], [5,1]]
     """
     compressed = []
+    print(len(input))
     
     for i in range(len(input)):
         if not input[i] == input[i-1]:
