@@ -16,3 +16,4 @@ def generate_integers() -> int:
     
     return integer_list
     
+def compress(input: int) 
