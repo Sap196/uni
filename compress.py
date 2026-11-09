@@ -43,6 +43,16 @@ def compress(input: list) -> list:
     return compressed
 
 def decompress(input: list) -> list:
+    """
+    >>> decompress([[5, 3], [7, 2]])
+    [5, 5, 5, 7, 7]
+    >>> decompress([[5, 2], [3, 1], [5, 3]])
+    [5, 5, 3, 5, 5, 5]
+    >>> decompress([[0, 1], [-2, 2]])
+    [0, -2, -2]
+    >>> decompress([])
+    []
+    """
     decompressed = []
     
     for paar in input:
