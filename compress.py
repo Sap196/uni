@@ -1,6 +1,6 @@
 import random
 
-def generate_integers() -> int:
+def generate_integers(amount: int) -> int:
     """
     >>>
     """
