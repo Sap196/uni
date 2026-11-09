@@ -4,7 +4,7 @@ def generate_integers() -> int:
     """
     >>> output = generate_integers()
     >>> type(output)
-    list
+    'list'
     """
     integer_list = []
     
