@@ -21,7 +21,8 @@ def compress(input: list) -> list:
     count_zelfde = 0
     
     for i in range(len(input)):
-        
+        for j in range(len(input)):
+            
     
     return compressed
 
