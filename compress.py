@@ -34,7 +34,7 @@ def compress(input: list) -> list:
     
     return compressed
 
-def decompress(input: list) - > list:
+def decompress(input: list) -> list:
     decompressed = []
     
     return decompressed
