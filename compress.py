@@ -2,8 +2,9 @@ import random
 
 def generate_integers() -> int:
     """
-    >>>output = generate_integers()
-    output.t
+    >>> output = generate_integers()
+    >>> output.type()
+    
     """
     integer_list = []
     
