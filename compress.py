@@ -28,4 +28,5 @@ def decompress(input: list) - > list:
 
 def compression_ratio(compressed: list, original: list) -> int:
     
-    return compression_ratio
+    
+    return compression_ratio_number
