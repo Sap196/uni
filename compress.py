@@ -28,7 +28,14 @@ def decompress(input: list) - > list:
 
 def compression_ratio(compressed: list, original: list) -> int:
     """
-    >>> compression_ratio([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [[], [], []])
+    """
+    >>> compression_ratio([[5, 4], [7, 4]], [5, 5, 5, 5, 7, 7, 7, 7])
+    2.0
+    >>> compression_ratio([[5, 2]], [5, 5])
+    1.0
+    >>> compression_ratio([[5, 1], [7, 1]], [5, 7])
+    0.5
+    """
     
     """
     compression_ratio_number = (len(uncompressed) / (len(compressed) * 2))
