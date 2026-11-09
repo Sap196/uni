@@ -18,9 +18,9 @@ def generate_integers() -> int:
     
 def compress(input: list) -> list:
     compressed = []
-    count_zelfde = 0
     
     for i in range(len(input)):
+        count_zelfde = 0
         for j in range(i, len(input)):
             if input[i] == input[j]:
                 
