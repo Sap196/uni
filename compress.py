@@ -5,7 +5,8 @@ def generate_integers() -> int:
     >>> output = generate_integers()
     >>> type(output)
     <class 'list'>
-    >>>
+    >>> len(output)
+    1000
     
     """
     integer_list = []
