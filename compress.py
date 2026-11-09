@@ -20,3 +20,6 @@ def compress(input: list) -> list:
     compressed = []
     
     return compressed
+
+def decompress(input: list) - > list:
+    
