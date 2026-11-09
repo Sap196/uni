@@ -19,7 +19,7 @@ def generate_integers() -> int:
 def compress(input: list) -> list:
     """
     >>> compress([1, 3, 3, 3, 3, 4, 5])
-    []
+    [[1,1], [3, 4], [4, 1], [5,1]]
     """
     compressed = []
     
