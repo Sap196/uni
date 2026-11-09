@@ -1,5 +1,12 @@
 import random
 
+"""
+Een lijst blijft hetzelfde als je hem comprimeert en weer decomprimeert.
+>>> origineel = [8, 7, 7, 2, 2, 4, 1]
+>>> decompress(compress(origineel)) == origineel
+True
+"""
+
 def generate_integers() -> int:
     """
     >>> output = generate_integers()
