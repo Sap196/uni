@@ -4,6 +4,7 @@ def generate_integers() -> int:
     integer_list = []
     
     for i in range(1000):
-        random.randint(1, 9)
+        getal = random.randint(1, 9)
+        integer_list.append(getal)
     
     return integer_list
