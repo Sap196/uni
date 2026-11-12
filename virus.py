@@ -4,4 +4,4 @@ import string
 def generate_virus(length:int) -> str:
     return "".join(random.choices("ACGT", k=length))
     
-print(generate_virus(10))
+def mutate(virus)
